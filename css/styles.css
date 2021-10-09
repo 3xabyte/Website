@@ -1,0 +1,113 @@
+/* Master Styles */
+body {
+    margin: 0px;
+    background-image: url("/images/algonquin.jpg");
+
+    background-color: #ebfcfb;
+    background-size: cover;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+/* Nav Styles */
+.nav-bar {
+    background-image: linear-gradient(175deg, #ff5e00, #ffbf00);
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-side {
+    display: flex;
+}
+
+.right-side {
+    display: flex;
+}
+
+.nav-bar > .left-side > div {
+    margin-right: 24px;
+    font-size: 0.9em;
+    text-transform: uppercase;
+}
+
+.nav-links {
+    height: 22px;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.5s;
+    padding: 12px;
+    padding-left: 32px;
+    padding-right: 32px;
+}
+
+.nav-links a {
+    color: #12130f;
+    font-family: Bahnschrift;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+.brand {
+    color: #12130f;
+    font-family: Bahnschrift;
+    font-size: 32px;
+    padding: 8px;
+}
+
+.brand a {
+    color: #12130f;
+    font-family: Bahnschrift;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+.nav-links:hover {
+    border-bottom: 1px #ebfcfb;
+    background-color: #2274a5;
+}
+
+.nav-links a:hover {
+    color: #ebfcfb;
+}
+
+.content {
+    display: flex;
+    margin: 128px;
+}
+
+.about-background {
+    background-color: #ffbf00;
+    display: grid;
+    margin-left: 256px;
+    margin-right: 256px;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    border-radius: 32px;
+}
+.about-me {
+    color: #12130f;
+    font-family: Bahnschrift;
+    font-size: 20px;
+}
+
+.image-background {
+    background-color: #ffbf00;
+    padding: 4px;
+    border-radius: 50%;
+}
+.profile-image img {
+    border-radius: 50%;
+}
+
+/* Portfolio Styles */
+
+@font-face {
+    font-family: Bahnschrift;
+    src: local("bahnschrift.ttf");
+}
